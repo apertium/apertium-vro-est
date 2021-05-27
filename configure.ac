@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.52)
-AC_INIT([apertium-vro-est], [0.0.0], [flammie@iki.fi], [apertium-vro-est], [http://wiki.apertium.org/wiki/Apertium-vro-est])
+AC_INIT([apertium-vro-est], [0.0.0], [flammie@iki.fi], [apertium-vro-est], [https://wiki.apertium.org/wiki/Apertium-vro-est])
 AM_INIT_AUTOMAKE
 
 m4_define([required_apertium_version], [3.3.0])
@@ -126,7 +126,7 @@ else
 fi
 
 
-m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
+m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: https://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
 
 AP_CHECK_LING([1], [giella-vro])
