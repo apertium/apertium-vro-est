@@ -1,0 +1,10 @@
+{
+    "est-vro": {
+        "input": "est-vro-input.txt",
+        "mode": "est-vro"
+    },
+    "vro-est": {
+        "input": "vro-est-input.txt",
+        "mode": "vro-est"
+    }
+}

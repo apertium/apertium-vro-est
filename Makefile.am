@@ -210,11 +210,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "ja" | apertium -d . vro-est | tee .test-mt
-	@echo "ja" > .test-ref
-	@diff .test-ref .test-mt
-	echo "ja" | apertium -d . est-vro | tee .test-mt
-	@echo "ja" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-
+	apertium-regtest test
